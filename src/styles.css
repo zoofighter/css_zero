@@ -1,0 +1,23 @@
+body {
+  background-color: beige;
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-size: 16px;
+}
+a {
+  color: black;
+}
+
+.multi_col {
+  text-align: justify;
+  column-count: 3;
+  /*        column-width: 200px;*/
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-rule-color: blue;
+}
+h1 {
+  column-span: all;
+}
